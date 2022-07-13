@@ -1,0 +1,22 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "this is backend",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "bahar": "cd.. && cd crud-app && npm run both",
+    "backFront": "concurrently \"nodemon server.js\" \"npm run bahar\""
+  },
+  "author": "idris",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.2",
+    "concurrently": "^7.0.0",
+    "cors": "^2.8.5",
+    "cros": "^1.0.1",
+    "express": "^4.17.3",
+    "mongodb": "3.0",
+    "mongoose": "^5.13.14"
+  }
+}
